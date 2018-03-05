@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+<persistence-unit name="uniteMail">
+<jta-data-source>jdbc/mailingDB</jta-data-source>
+<properties>
+<property name="eclipselink.ddl-generation" value="create-tables"/>
+<property name="eclipselink.weaving" value="false"/>
+</properties>
+</persistence-unit>
+</persistence>
